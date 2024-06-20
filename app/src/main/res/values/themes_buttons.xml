@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="RentAVan.Button" parent="Widget.Material3.Button">
+        <item name="fontFamily">@font/opensans_medium</item>
+        <item name="background">?colorPrimary</item>
+        <item name="android:paddingVertical" tools:targetApi="o">14dp</item>
+    </style>
+
+    <style name="RentAVan.Button.Tonal" parent="Widget.Material3.Button.TonalButton">
+        <item name="backgroundTint">?colorSecondaryVariant</item>
+        <item name="iconTint">?colorPrimary</item>
+        <item name="android:textColor">?colorPrimary</item>
+        <item name="fontFamily">@font/opensans_medium</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:paddingVertical" tools:targetApi="o">14dp</item>
+    </style>
+
+    <style name="RentAVan.Button.Text" parent="Widget.Material3.Button.TextButton">
+        <item name="fontFamily">@font/opensans_medium</item>
+    </style>
+
+    <style name="RentAVan.Button.Panel" parent="Widget.Material3.Button">
+        <item name="fontFamily">@font/opensans_regular</item>
+        <item name="android:textSize">16sp</item>
+        <item name="cornerRadius">0dp</item>
+        <item name="android:paddingVertical" tools:targetApi="o">16dp</item>
+        <item name="android:textColor">?colorPrimary</item>
+        <item name="iconTint">?colorPrimary</item>
+        <item name="iconGravity">textStart</item>
+        <item name="android:textAlignment">textStart</item>
+        <item name="backgroundTint">?colorOnPrimary</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+    </style>
+
+    <style name="RentAVan.Button.Outlined" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="fontFamily">@font/opensans_regular</item>
+        <item name="android:textSize">14sp</item>
+        <item name="iconTint">?colorPrimary</item>
+        <item name="strokeColor">?colorPrimary</item>
+    </style>
+
+    <style name="RentAVan.Button.Icon" parent="Widget.Material3.Button.IconButton">
+        <item name="fontFamily">@font/opensans_regular</item>
+        <item name="android:textSize">14sp</item>
+        <item name="iconTint">?colorPrimary</item>
+        <item name="colorPrimary">?colorPrimary</item>
+        <item name="strokeColor">?colorPrimary</item>
+        <item name="android:backgroundTint">@android:color/transparent</item>
+    </style>
+
+    <style name="RentAVan.Button.Floating.Extended" parent="Widget.Material3.ExtendedFloatingActionButton.Primary">
+        <item name="backgroundTint">?colorPrimary</item>
+        <item name="iconTint">?colorOnPrimary</item>
+        <item name="android:textColor">?colorOnPrimary</item>
+    </style>
+
+    <style name="RentAVan.Button.Floating.Extended.Tonal" parent="Widget.Material3.ExtendedFloatingActionButton.Primary">
+        <item name="backgroundTint">?colorSecondaryVariant</item>
+        <item name="iconTint">?colorPrimary</item>
+        <item name="android:textColor">?colorPrimary</item>
+    </style>
+
+    <style name="RentAVan.Button.Floating.Extended.ShapeAppearance" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">100dp</item>
+    </style>
+
+    <style name="RentAVan.Button.Switch" parent="Widget.MaterialComponents.CompoundButton.Switch">
+        <item name="android:thumbTint">@color/selector_switch_material</item>
+    </style>
+
+    <style name="RentAVan.CheckBox" parent="Widget.Material3.CompoundButton.CheckBox">
+        <item name="fontFamily">@font/opensans_regular</item>
+    </style>
+</resources>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="RentAVan.TextView.Regular" parent="Widget.AppCompat.TextView">
+        <item name="fontFamily">@font/opensans_regular</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">?colorPrimary</item>
+    </style>
+
+    <style name="RentAVan.TextView.Medium" parent="Widget.AppCompat.TextView">
+        <item name="fontFamily">@font/opensans_medium</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">?colorPrimary</item>
+    </style>
+
+    <style name="RentAVan.TextView.Large" parent="Widget.AppCompat.TextView">
+        <item name="fontFamily">@font/opensans_medium</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">?colorPrimary</item>
+    </style>
+
+    <style name="RentAVan.TextView.ExtraLarge" parent="Widget.AppCompat.TextView">
+        <item name="fontFamily">@font/opensans_medium</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">?colorPrimary</item>
+    </style>
+</resources>

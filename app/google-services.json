@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "508577042619",
+    "firebase_url": "https://rent-a-van-99a85-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "rent-a-van-99a85",
+    "storage_bucket": "rent-a-van-99a85.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:508577042619:android:c45067562330556976599e",
+        "android_client_info": {
+          "package_name": "com.rentavan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "508577042619-vg76gm0eg16215l7egpdpvjs92bigevi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAOirIxPvNawtjlDa2zmVoJJT3ow5NzxaU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "508577042619-vg76gm0eg16215l7egpdpvjs92bigevi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
